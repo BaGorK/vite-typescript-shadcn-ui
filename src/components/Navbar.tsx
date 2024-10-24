@@ -72,12 +72,12 @@ export function Navbar() {
 
           <div className='flex items-center gap-4'>
             <div className='sm:flex items-center sm:gap-4'>
-              <ModeToggle />
               <Button>Login</Button>
 
               <div className='hidden sm:flex'>
                 <Link to='/signup'>Register</Link>
               </div>
+              <ModeToggle />
             </div>
 
             <div className='block md:hidden'>

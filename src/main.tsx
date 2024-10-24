@@ -4,7 +4,6 @@ import './index.css';
 import App from './App.tsx';
 import { ThemeProvider } from '@/components/ThemeProvider.tsx';
 import { AnimatedGridPatternDemo } from './components/AnimatedGridPatternDemo.tsx';
-import { ModeToggle } from './components/ModeToggle.tsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Blog } from './pages/blog.tsx';
 import Navbar from './components/Navbar.tsx';
